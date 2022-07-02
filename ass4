@@ -1,0 +1,12 @@
+n=int(input())
+l=list(map(int,input().split()))
+print(l)
+for i in l:
+    if i%2==0:
+        l.remove(i)
+print(l)  
+
+4
+22 54 37 98
+[22, 54, 37, 98]
+[54, 37]
